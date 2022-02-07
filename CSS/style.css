@@ -1,0 +1,55 @@
+body {
+  background-color: #fffaf3;
+}
+
+.container {
+  background-color: #eb6f92;
+  height: 5rem;
+  padding: 1rem;
+  width: 20rem;
+}
+.center {
+  background-color: #9ccfd8;
+  height: 4rem;
+  margin: auto;
+  width: 5rem;
+}
+
+/* position relative */
+
+.block {
+  background-color: #b4637a;
+  height: 5rem;
+  width: 5rem;
+}
+.green {
+  background-color: #286983;
+}
+.relative {
+  background-color: #9ccfd8;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+/* position absolute */
+/* For anyone following along at home try uncommenting the properties in core first */
+.outer {
+  background-color: #d7827e;
+  height: 10rem;
+  width: 10rem;
+  /* position: relative; */
+}
+.inner {
+  background-color: #3e8fb0;
+  height: 7rem;
+  width: 7rem;
+  /* position: relative; */
+}
+.core {
+  background-color: #f6c177;
+  height: 4rem;
+  width: 4rem;
+  /* position: absolute; */
+  /* right: 0; */
+}
